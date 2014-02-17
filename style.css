@@ -597,6 +597,10 @@ body {
   width: 250px;
   background-color: #669966;
 }
+#masthead .nav-menu > ul li:hover .children a {
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #5c8a5c;
+}
 
 #search-container {
   padding: 1rem;
