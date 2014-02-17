@@ -1,0 +1,128 @@
+/*
+Theme Name: fosscomm2014
+Theme URI: http://fosscomm.gr
+Description: Custom theme made for FOSSCOMM 2014.
+Version: 1.0.0
+Author: Adonis K.
+Author URI: http://adonisk.com
+Template: twentyfourteen
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/*
+This theme, like WordPress, is licensed under the GPL.
+*/
+
+@import '_normalize';
+@import '_verepo';
+
+@include grid(12, 1rem);
+
+$c1: #fff;
+$c2: #696;
+$cw: #fff;
+$cb: #000;
+
+body{
+	background-color: $c1;
+	overflow-x: auto;
+	overflow-y: scroll;
+}
+
+#site-header{
+	a{
+		display: block;
+
+		img{
+			display: block;
+
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+
+#masthead{
+	@include clearfix;
+	background-color: $c2;
+
+	.header-main{
+		float: left;
+	}
+
+	#search-container{
+		float: right;
+	}
+
+	.menu-toggle,
+	.skip-link,
+	.search-toggle a{
+		display: none;
+	}
+
+	.nav-menu > ul{
+		@include floated-list;
+
+		ul{
+			display: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		li{
+			display: block;
+			position: relative;
+
+			a{
+				display: block;
+				padding: 1rem;
+
+				&,
+				&:visited{
+					color: $cw;
+					text-decoration: none;
+				}
+
+				&:hover{
+					text-decoration: underline;
+				}
+			}
+
+			&:hover{
+				.children{
+					display: block;
+					position: absolute;
+					top: 3em;
+					left: 0;
+					width: 250px;
+					background-color: $c2;
+				}
+			}
+		}
+	}
+}
+
+#search-container{
+	padding: 1rem;
+
+	label{
+		display: inline-block;
+		@include borderbox;
+
+		span{
+			display: none;
+		}
+	}
+
+	input{
+		display: inline-block;
+		@include borderbox;
+		border: none;
+
+	}
+}
+
+#main{
+	clear: both;
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme>
+	<name>FOSSCOMM - Λαμία 2014</name>
+	<version>1.0.0</version>
+	<creationDate>February 2014</creationDate>
+	<author>Adonis K.</author>
+	<authorEmail>aklp08@gmail.com</authorEmail>
+	<authorUrl>http://adonisk.com</authorUrl>
+    <copyright>Copyright (C) FOSSCOMM</copyright>
+    <template>yoo_master2_wp</template>
+    <license>http://www.gnu.org/licenses/gpl.html GNU/GPL</license>
+	<description>Custom theme made for FOSSCOMM 2014. Based on the Warp framework.</description>
+    <positions>
+        <position settings="assignment">search</position>
+        <position settings="assignment">logo</position>
+        <position settings="assignment">logo-small</position>
+        <position settings="title assignment">menu</position>
+        <position settings="title assignment">toolbar-l</position>
+        <position settings="title assignment">toolbar-r</position>
+        <position settings="assignment">headerbar</position>
+        <position settings="assignment">breadcrumbs</position>
+        <position>top-a</position>
+        <position>top-b</position>
+        <position>bottom-a</position>
+        <position>bottom-b</position>
+        <position>main-top</position>
+        <position>main-bottom</position>
+        <position>sidebar-a</position>
+        <position>sidebar-b</position>
+        <position settings="assignment">footer</position>
+        <position settings="title assignment">offcanvas</position>
+        <position settings="">debug</position>
+    </positions>
+</theme>
