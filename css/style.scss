@@ -15,6 +15,7 @@ This theme, like WordPress, is licensed under the GPL.
 */
 
 @import '_normalize';
+@import '_content';
 @import '_verepo';
 
 @include grid(12, 1rem);
@@ -22,12 +23,20 @@ This theme, like WordPress, is licensed under the GPL.
 $c1: #fff;
 $c2: #696;
 $cw: #fff;
-$cb: #000;
+$cb: #222;
 
 body{
-	background-color: $c1;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
 	overflow-x: auto;
 	overflow-y: scroll;
+	color: $cb;
+	background-color: $c2;
+}
+
+#page{
+	max-width: 1140px;
+	margin: 0 auto;
 }
 
 #site-header{
@@ -61,7 +70,7 @@ body{
 		display: none;
 	}
 
-	.nav-menu > ul{
+	.nav-menu{
 		@include floated-list;
 
 		ul{
@@ -90,7 +99,7 @@ body{
 			}
 
 			&:hover{
-				.children{
+				.sub-menu{
 					display: block;
 					position: absolute;
 					top: 3em;
@@ -104,30 +113,44 @@ body{
 					}
 				}
 			}
+
+			&.current_page_item,
+			&.current_page_ancestor,
+			&.current_page_parent{
+				background-color: darken($c2, 5%);
+			}
 		}
-	}
-}
-
-#search-container{
-	padding: 1rem;
-
-	label{
-		display: inline-block;
-		@include borderbox;
-
-		span{
-			display: none;
-		}
-	}
-
-	input{
-		display: inline-block;
-		@include borderbox;
-		border: none;
-
 	}
 }
 
 #main{
 	clear: both;
+	background-image: linear-gradient(to right, #fff 74%, $c2 74%);
+}
+
+article,
+#primary-sidebar{
+	padding: 1rem;
+}
+
+article{
+	max-width: 600px;
+
+	table{
+		width: 100%;
+		border: 1px solid #ccc;
+
+		td{
+			padding: 0.5rem 1rem;
+			border: 1px solid #ccc;
+		}
+	}
+}
+
+aside{
+	margin-bottom: 1rem;
+
+	h1{
+		margin-top: 0;
+	}
 }
