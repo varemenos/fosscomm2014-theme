@@ -16,6 +16,7 @@ This theme, like WordPress, is licensed under the GPL.
 
 @import '_normalize';
 @import '_content';
+@import '_widgets';
 @import '_verepo';
 
 @include grid(12, 1rem);
