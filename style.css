@@ -1545,7 +1545,7 @@ body {
   background-image: linear-gradient(to right, white 74%, #669966 74%);
 }
 
-article,
+#content,
 #primary-sidebar {
   padding: 1rem;
 }
