@@ -1486,6 +1486,7 @@ a.post-thumbnail:hover {
 .widget ol {
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 
 .widget li > ol,
