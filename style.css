@@ -2087,6 +2087,10 @@ body {
   background-color: #669966;
 }
 
+#main {
+  padding-bottom: 0;
+}
+
 #page {
   max-width: 1140px;
   margin: 0 auto;
