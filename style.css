@@ -2026,8 +2026,9 @@ body {
 }
 
 #main {
-  padding-bottom: 0;
   max-width: 1140px;
+  margin: 0 auto;
+  padding-bottom: 0;
 }
 
 #site-header a {
