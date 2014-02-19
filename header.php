@@ -51,4 +51,13 @@
 		</a>
 	</div>
 	<?php endif; ?>
-	<div id="main" class="site-main row">
+	<?php
+	if (is_home()) {
+		?>
+		<div id="main" class="site-main">
+		<?php
+	} else {
+		?>
+		<div id="main" class="site-main row">
+		<?php
+	}

@@ -125,6 +125,23 @@ body{
 	}
 }
 
+.home{
+	#main{
+		background: #fff;
+	}
+
+	#primary{
+		max-width: 1140px;
+		margin: 0 auto;
+		text-align: center;
+
+		p{
+			text-align: left;
+			text-indent: 1.5em;
+		}
+	}
+}
+
 #main{
 	clear: both;
 	background: #fff;
