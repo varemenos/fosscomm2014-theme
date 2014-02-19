@@ -1565,7 +1565,6 @@ a.post-thumbnail:hover {
   font-weight: 700;
   line-height: 1.7142857142;
   margin: 0 0 1.5em 0;
-  text-transform: uppercase;
 }
 
 .widget-title,
@@ -1589,7 +1588,6 @@ a.post-thumbnail:hover {
   line-height: 1.7142857142;
   margin-bottom: 1em;
   text-align: left;
-  text-transform: uppercase;
 }
 
 .widget_calendar thead th {
@@ -1687,7 +1685,6 @@ a.post-thumbnail:hover {
 
 .widget_twentyfourteen_ephemera .post-format-archive-link {
   font-weight: 700;
-  text-transform: uppercase;
 }
 
 /* List Style Widgets*/
@@ -1860,7 +1857,6 @@ a.post-thumbnail:hover {
   font-weight: 900;
   margin: 0 0 1em;
   padding-top: 7px;
-  text-transform: uppercase;
 }
 
 .content-sidebar .widget .widget-title a {
