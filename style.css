@@ -2022,14 +2022,6 @@ body {
   padding-bottom: 0;
 }
 
-#page {
-  max-width: 1140px;
-  margin: 0 auto 1rem auto;
-  -webkit-box-shadow: 0 0 5px #222222;
-  -moz-box-shadow: 0 0 5px #222222;
-  box-shadow: 0 0 5px #222222;
-}
-
 #site-header a {
   display: block;
 }

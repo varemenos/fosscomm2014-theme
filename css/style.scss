@@ -40,12 +40,6 @@ body{
 	padding-bottom: 0;
 }
 
-#page{
-	max-width: 1140px;
-	margin: 0 auto 1rem auto;
-	@include box-shadow(0 0 5px $cb);
-}
-
 #site-header{
 	a{
 		display: block;
