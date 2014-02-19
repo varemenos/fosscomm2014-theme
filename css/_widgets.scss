@@ -59,14 +59,15 @@
 	margin-bottom: 2.5em;
 	width: 100%;
 	word-wrap: break-word;
+	color: $cb;
 }
 
 .widget a {
-	color: #fff;
+	color: $cb;
 }
 
 .widget a:hover {
-	color: $cb;
+	color: $cw;
 }
 
 .widget h1,
@@ -354,7 +355,7 @@
 
 .widget_twentyfourteen_ephemera .entry-content th,
 .widget_twentyfourteen_ephemera .entry-content td {
-	padding: 6px;
+	padding: 0.5em;
 }
 
 .widget_twentyfourteen_ephemera .post-format-archive-link {
@@ -371,8 +372,8 @@
 .widget_pages li,
 .widget_recent_comments li,
 .widget_recent_entries li {
-	border-top: 1px solid rgba(255, 255, 255, 0.2);
-	padding: 8px 0 9px;
+	border-top: 1px solid $cb;
+	padding: 0.5 0 0.5em;
 }
 
 .widget_archive li:first-child,
@@ -390,7 +391,7 @@
 .widget_nav_menu li ul,
 .widget_pages li ul {
 	border-top: 1px solid rgba(255, 255, 255, 0.2);
-	margin-top: 9px;
+	margin-top: 0.5em;
 }
 
 .widget_categories li li:last-child,
@@ -412,7 +413,7 @@
 }
 
 .rssSummary {
-	margin: 9px 0;
+	margin: 0.5em 0;
 }
 
 .rss-date {
@@ -577,74 +578,4 @@
 .content-sidebar .widget_calendar tbody a,
 .content-sidebar .widget_calendar tbody a:hover {
 	color: #fff;
-}
-
-/* Ephemera widget*/
-
-.content-sidebar .widget_twentyfourteen_ephemera .widget-title {
-	line-height: 1.2857142857;
-	padding-top: 1px;
-}
-
-.content-sidebar .widget_twentyfourteen_ephemera .widget-title:before {
-	background-color: #000;
-	color: #fff;
-	margin: -1px 9px 0 0;
-	padding: 6px 0 9px;
-	text-align: center;
-	vertical-align: middle;
-	width: 36px;
-}
-
-.content-sidebar .widget_twentyfourteen_ephemera .video.widget-title:before {
-	content: "\f104";
-}
-
-.content-sidebar .widget_twentyfourteen_ephemera .audio.widget-title:before {
-	content: "\f109";
-}
-
-.content-sidebar .widget_twentyfourteen_ephemera .image.widget-title:before {
-	content: "\f473";
-}
-
-.content-sidebar .widget_twentyfourteen_ephemera .gallery.widget-title:before {
-	content: "\f103";
-}
-
-.content-sidebar .widget_twentyfourteen_ephemera .aside.widget-title:before {
-	content: "\f101";
-}
-
-.content-sidebar .widget_twentyfourteen_ephemera .quote.widget-title:before {
-	content: "\f106";
-}
-
-.content-sidebar .widget_twentyfourteen_ephemera .link.widget-title:before {
-	content: "\f107";
-}
-
-.content-sidebar .widget_twentyfourteen_ephemera > ol > li {
-	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.content-sidebar .widget_twentyfourteen_ephemera .entry-meta {
-	color: #ccc;
-}
-
-.content-sidebar .widget_twentyfourteen_ephemera .entry-meta a {
-	color: #767676;
-}
-
-.content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover {
-	color: $cb;
-}
-
-.content-sidebar.widget_twentyfourteen_ephemera blockquote cite {
-	font-size: 13px;
-	line-height: 1.3846153846;
-}
-
-.content-sidebar .widget_twentyfourteen_ephemera .post-format-archive-link {
-	font-weight: 900;
 }
