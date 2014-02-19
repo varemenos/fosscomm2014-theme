@@ -207,6 +207,20 @@ aside{
 }
 
 .site-info{
+	color: $cw;
+
+	a{
+		&,
+		&:visited{
+			color: $cw;
+		}
+
+		&:focus,
+		&:hover{
+			color: darken($cw, 25%);
+		}
+	}
+
 	p{
 		margin: 0;
 		padding: 1rem;

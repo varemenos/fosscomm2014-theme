@@ -208,7 +208,8 @@
 .widget input[type="button"],
 .widget input[type="reset"],
 .widget input[type="submit"] {
-	background-color: #24890d;
+	color: $cb;
+	background-color: $cw;
 	border: 0;
 	font-size: 0.75em;
 	padding: 0.5em 1em 0.5em;
@@ -220,13 +221,14 @@
 .widget input[type="reset"]:focus,
 .widget input[type="submit"]:hover,
 .widget input[type="submit"]:focus {
+	color: $cb;
 	background-color: $cw;
 }
 
 .widget input[type="button"]:active,
 .widget input[type="reset"]:active,
 .widget input[type="submit"]:active {
-	background-color: #55d737;
+	background-color: $cw;
 }
 
 .widget .wp-caption {
@@ -275,12 +277,14 @@
 }
 
 .widget_calendar tbody a {
-	background-color: #24890d;
+	color: $cb;
+	background-color: $cw;
 	color: #fff;
 	display: block;
 }
 
 .widget_calendar tbody a:hover {
+	color: $cb;
 	background-color: $cw;
 }
 
@@ -442,7 +446,8 @@
  */
 
 .content-sidebar .widget a {
-	color: #24890d;
+	color: $cb;
+	color: $cw;
 }
 
 .content-sidebar .widget a:hover {
@@ -508,7 +513,8 @@
 .content-sidebar .widget input[type="button"],
 .content-sidebar .widget input[type="reset"],
 .content-sidebar .widget input[type="submit"] {
-	background-color: #24890d;
+	color: $cb;
+	background-color: $cw;
 	border: 0;
 	color: #fff;
 }
@@ -519,13 +525,14 @@
 .content-sidebar .widget input[type="reset"]:focus,
 .content-sidebar .widget input[type="submit"]:hover,
 .content-sidebar .widget input[type="submit"]:focus {
+	color: $cb;
 	background-color: $cw;
 }
 
 .content-sidebar .widget input[type="button"]:active,
 .content-sidebar .widget input[type="reset"]:active,
 .content-sidebar .widget input[type="submit"]:active {
-	background-color: #55d737;
+	background-color: $cw;
 }
 
 .content-sidebar .widget .wp-caption {

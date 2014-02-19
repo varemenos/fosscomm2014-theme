@@ -2182,6 +2182,15 @@ aside h1 {
   margin-top: 0;
 }
 
+.site-info {
+  color: white;
+}
+.site-info a, .site-info a:visited {
+  color: white;
+}
+.site-info a:focus, .site-info a:hover {
+  color: #bfbfbf;
+}
 .site-info p {
   margin: 0;
   padding: 1rem;
