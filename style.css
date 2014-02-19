@@ -2204,6 +2204,9 @@ article table td {
   padding: 0.5rem 1rem;
   border: 1px solid #ccc;
 }
+article p {
+  text-align: justify;
+}
 
 aside {
   margin-bottom: 1rem;
