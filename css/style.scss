@@ -31,7 +31,6 @@ body{
 	-webkit-font-smoothing: antialiased;
 	overflow-x: auto;
 	overflow-y: scroll;
-	padding-bottom: 1rem;
 	color: $cb;
 	background-color: $c2;
 }
@@ -42,7 +41,7 @@ body{
 
 #page{
 	max-width: 1140px;
-	margin: 0 auto;
+	margin: 0 auto 1rem auto;
 	@include box-shadow(0 0 5px $cb);
 }
 
@@ -159,5 +158,12 @@ aside{
 
 	h1{
 		margin-top: 0;
+	}
+}
+
+.site-info{
+	p{
+		margin: 0;
+		padding: 1rem;
 	}
 }

@@ -2013,7 +2013,6 @@ body {
   -webkit-font-smoothing: antialiased;
   overflow-x: auto;
   overflow-y: scroll;
-  padding-bottom: 1rem;
   color: #222222;
   background-color: #669966;
 }
@@ -2024,7 +2023,7 @@ body {
 
 #page {
   max-width: 1140px;
-  margin: 0 auto;
+  margin: 0 auto 1rem auto;
   -webkit-box-shadow: 0 0 5px #222222;
   -moz-box-shadow: 0 0 5px #222222;
   box-shadow: 0 0 5px #222222;
@@ -2141,4 +2140,9 @@ aside {
 }
 aside h1 {
   margin-top: 0;
+}
+
+.site-info p {
+  margin: 0;
+  padding: 1rem;
 }
