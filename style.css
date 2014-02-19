@@ -2112,6 +2112,12 @@ body {
 .home #main {
   background: #fff;
 }
+.home h1 {
+  font-size: 3em;
+}
+.home h2 {
+  font-size: 2em;
+}
 .home #primary {
   max-width: 1140px;
   margin: 0 auto;
@@ -2187,4 +2193,10 @@ blockquote {
 blockquote p {
   margin: 0;
   padding: 0;
+}
+
+@media only screen and (max-width: 1139px) {
+  .only_desktop {
+    display: none;
+  }
 }

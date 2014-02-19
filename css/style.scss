@@ -130,6 +130,14 @@ body{
 		background: #fff;
 	}
 
+	h1{
+		font-size: 3em;
+	}
+
+	h2{
+		font-size: 2em;
+	}
+
 	#primary{
 		max-width: 1140px;
 		margin: 0 auto;
@@ -211,5 +219,11 @@ blockquote{
 	p{
 		margin: 0;
 		padding: 0;
+	}
+}
+
+.only_desktop{
+	@media only screen and (max-width: 1139px){
+		display: none;
 	}
 }
