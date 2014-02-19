@@ -59,11 +59,11 @@
 	margin-bottom: 2.5em;
 	width: 100%;
 	word-wrap: break-word;
-	color: $c;
+	color: $cw;
 }
 
 .widget a {
-	color: $c;
+	color: $cw;
 	text-decoration: none;
 }
 
@@ -208,7 +208,7 @@
 .widget input[type="button"],
 .widget input[type="reset"],
 .widget input[type="submit"] {
-	color: $c;
+	color: $cw;
 	background-color: $cb;
 	border: 0;
 	font-size: 0.75em;
@@ -228,7 +228,7 @@
 .widget input[type="button"]:active,
 .widget input[type="reset"]:active,
 .widget input[type="submit"]:active {
-	background-color: $c;
+	background-color: $cw;
 }
 
 .widget .wp-caption {
@@ -245,11 +245,11 @@
 
 .widget-title,
 .widget-title a {
-	color: $c;
+	color: $cw;
 }
 
 .widget-title a:hover {
-	color: $c;
+	color: $cw;
 }
 
 /* Calendar Widget*/
@@ -277,14 +277,14 @@
 }
 
 .widget_calendar tbody a {
-	color: $c;
+	color: $cw;
 	background-color: $cb;
 	color: #fff;
 	display: block;
 }
 
 .widget_calendar tbody a:hover {
-	color: $c;
+	color: $cw;
 	background-color: darken($cb, 5%);
 }
 
@@ -337,7 +337,7 @@
 }
 
 .widget_twentyfourteen_ephemera .entry-meta a:hover {
-	color: $c;
+	color: $cw;
 }
 
 .widget_twentyfourteen_ephemera .entry-content ul,
@@ -447,11 +447,11 @@
 
 .content-sidebar .widget a {
 	color: $cb;
-	color: $c;
+	color: $cw;
 }
 
 .content-sidebar .widget a:hover {
-	color: $c;
+	color: $cw;
 }
 
 .content-sidebar .widget pre {
@@ -513,7 +513,7 @@
 .content-sidebar .widget input[type="button"],
 .content-sidebar .widget input[type="reset"],
 .content-sidebar .widget input[type="submit"] {
-	color: $c;
+	color: $cw;
 	background-color: $cb;
 	border: 0;
 	color: #fff;
@@ -525,14 +525,14 @@
 .content-sidebar .widget input[type="reset"]:focus,
 .content-sidebar .widget input[type="submit"]:hover,
 .content-sidebar .widget input[type="submit"]:focus {
-	color: $c;
+	color: $cw;
 	background-color: darken($cb, 5%);
 }
 
 .content-sidebar .widget input[type="button"]:active,
 .content-sidebar .widget input[type="reset"]:active,
 .content-sidebar .widget input[type="submit"]:active {
-	background-color: $c;
+	background-color: $cw;
 }
 
 .content-sidebar .widget .wp-caption {
@@ -553,7 +553,7 @@
 }
 
 .content-sidebar .widget .widget-title a:hover {
-	color: $c;
+	color: $cw;
 }
 
 /* List Style Widgets*/

@@ -1387,11 +1387,11 @@ a.post-thumbnail:hover {
   margin-bottom: 2.5em;
   width: 100%;
   word-wrap: break-word;
-  color: #666699;
+  color: white;
 }
 
 .widget a {
-  color: #666699;
+  color: white;
   text-decoration: none;
 }
 
@@ -1536,7 +1536,7 @@ a.post-thumbnail:hover {
 .widget input[type="button"],
 .widget input[type="reset"],
 .widget input[type="submit"] {
-  color: #666699;
+  color: white;
   background-color: #222222;
   border: 0;
   font-size: 0.75em;
@@ -1556,7 +1556,7 @@ a.post-thumbnail:hover {
 .widget input[type="button"]:active,
 .widget input[type="reset"]:active,
 .widget input[type="submit"]:active {
-  background-color: #666699;
+  background-color: white;
 }
 
 .widget .wp-caption {
@@ -1573,11 +1573,11 @@ a.post-thumbnail:hover {
 
 .widget-title,
 .widget-title a {
-  color: #666699;
+  color: white;
 }
 
 .widget-title a:hover {
-  color: #666699;
+  color: white;
 }
 
 /* Calendar Widget*/
@@ -1604,14 +1604,14 @@ a.post-thumbnail:hover {
 }
 
 .widget_calendar tbody a {
-  color: #666699;
+  color: white;
   background-color: #222222;
   color: #fff;
   display: block;
 }
 
 .widget_calendar tbody a:hover {
-  color: #666699;
+  color: white;
   background-color: #151515;
 }
 
@@ -1663,7 +1663,7 @@ a.post-thumbnail:hover {
 }
 
 .widget_twentyfourteen_ephemera .entry-meta a:hover {
-  color: #666699;
+  color: white;
 }
 
 .widget_twentyfourteen_ephemera .entry-content ul,
@@ -1767,11 +1767,11 @@ a.post-thumbnail:hover {
  */
 .content-sidebar .widget a {
   color: #222222;
-  color: #666699;
+  color: white;
 }
 
 .content-sidebar .widget a:hover {
-  color: #666699;
+  color: white;
 }
 
 .content-sidebar .widget pre {
@@ -1833,7 +1833,7 @@ a.post-thumbnail:hover {
 .content-sidebar .widget input[type="button"],
 .content-sidebar .widget input[type="reset"],
 .content-sidebar .widget input[type="submit"] {
-  color: #666699;
+  color: white;
   background-color: #222222;
   border: 0;
   color: #fff;
@@ -1845,14 +1845,14 @@ a.post-thumbnail:hover {
 .content-sidebar .widget input[type="reset"]:focus,
 .content-sidebar .widget input[type="submit"]:hover,
 .content-sidebar .widget input[type="submit"]:focus {
-  color: #666699;
+  color: white;
   background-color: #151515;
 }
 
 .content-sidebar .widget input[type="button"]:active,
 .content-sidebar .widget input[type="reset"]:active,
 .content-sidebar .widget input[type="submit"]:active {
-  background-color: #666699;
+  background-color: white;
 }
 
 .content-sidebar .widget .wp-caption {
@@ -1873,7 +1873,7 @@ a.post-thumbnail:hover {
 }
 
 .content-sidebar .widget .widget-title a:hover {
-  color: #666699;
+  color: white;
 }
 
 /* List Style Widgets*/
