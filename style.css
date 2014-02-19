@@ -1395,7 +1395,7 @@ a.post-thumbnail:hover {
 }
 
 .widget a:hover {
-  color: white;
+  text-decoration: underline;
 }
 
 .widget h1,
@@ -1698,7 +1698,7 @@ a.post-thumbnail:hover {
 .widget_recent_comments li,
 .widget_recent_entries li {
   border-top: 1px solid #222222;
-  padding: 0.5 0 0.5em;
+  padding: 0.5em 0 0.5em;
 }
 
 .widget_archive li:first-child,
