@@ -59,11 +59,11 @@
 	margin-bottom: 2.5em;
 	width: 100%;
 	word-wrap: break-word;
-	color: $cb;
+	color: $cw;
 }
 
 .widget a {
-	color: $cb;
+	color: $cw;
 	text-decoration: none;
 }
 
@@ -220,7 +220,7 @@
 .widget input[type="reset"]:focus,
 .widget input[type="submit"]:hover,
 .widget input[type="submit"]:focus {
-	background-color: $cb;
+	background-color: $cw;
 }
 
 .widget input[type="button"]:active,
@@ -243,11 +243,11 @@
 
 .widget-title,
 .widget-title a {
-	color: $cb;
+	color: $cw;
 }
 
 .widget-title a:hover {
-	color: $cb;
+	color: $cw;
 }
 
 /* Calendar Widget*/
@@ -281,7 +281,7 @@
 }
 
 .widget_calendar tbody a:hover {
-	background-color: $cb;
+	background-color: $cw;
 }
 
 .widget_calendar tbody a:hover {
@@ -333,7 +333,7 @@
 }
 
 .widget_twentyfourteen_ephemera .entry-meta a:hover {
-	color: $cb;
+	color: $cw;
 }
 
 .widget_twentyfourteen_ephemera .entry-content ul,
@@ -373,7 +373,7 @@
 .widget_pages li,
 .widget_recent_comments li,
 .widget_recent_entries li {
-	border-top: 1px solid $cb;
+	border-top: 1px solid $cw;
 	padding: 0.5em 0 0.5em;
 }
 
@@ -446,7 +446,7 @@
 }
 
 .content-sidebar .widget a:hover {
-	color: $cb;
+	color: $cw;
 }
 
 .content-sidebar .widget pre {
@@ -519,7 +519,7 @@
 .content-sidebar .widget input[type="reset"]:focus,
 .content-sidebar .widget input[type="submit"]:hover,
 .content-sidebar .widget input[type="submit"]:focus {
-	background-color: $cb;
+	background-color: $cw;
 }
 
 .content-sidebar .widget input[type="button"]:active,
@@ -546,7 +546,7 @@
 }
 
 .content-sidebar .widget .widget-title a:hover {
-	color: $cb;
+	color: $cw;
 }
 
 /* List Style Widgets*/
