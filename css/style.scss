@@ -133,13 +133,12 @@ body{
 #main{
 	clear: both;
 	background: #fff;
-	background: -moz-linear-gradient(top, #fff 74%, $c2 74%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(74%,#fff), color-stop(74%,$c2));
+	background: -moz-linear-gradient(left, #fff 74%, $c2 74%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(74%,#fff), color-stop(74%,$c2));
 	background: -webkit-linear-gradient(top, #fff 74%,$c2 74%);
-	background: -o-linear-gradient(top, #fff 74%,$c2 74%);
-	background: -ms-linear-gradient(top, #fff 74%,$c2 74%);
-	background: linear-gradient(to bottom, #fff 74%,$c2 74%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='$c2',GradientType=0 );
+	background: -o-linear-gradient(left, #fff 74%,$c2 74%);
+	background: -ms-linear-gradient(left, #fff 74%,$c2 74%);
+	background: linear-gradient(to right, #fff 74%,$c2 74%);
 }
 
 #content,
