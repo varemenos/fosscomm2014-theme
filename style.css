@@ -1392,6 +1392,7 @@ a.post-thumbnail:hover {
 
 .widget a {
   color: #222222;
+  text-decoration: none;
 }
 
 .widget a:hover {
