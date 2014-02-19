@@ -2013,6 +2013,7 @@ body {
   -webkit-font-smoothing: antialiased;
   overflow-x: auto;
   overflow-y: scroll;
+  font-family: Tahoma, Arial, sans-serif;
   color: #222222;
   background-color: #669966;
 }
