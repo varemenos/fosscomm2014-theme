@@ -15,5 +15,4 @@ gulp.task('sass', function(){
 		.pipe(livereload());
 });
 
-gulp.task('default', function(){
-});
+gulp.task('default', ['sass']);
