@@ -2111,11 +2111,21 @@ body {
 }
 #masthead .nav-menu li.current_page_item, #masthead .nav-menu li.current_page_ancestor, #masthead .nav-menu li.current_page_parent {
   background-color: #5c8a5c;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2) inset;
+  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2) inset;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2) inset;
 }
 
 #main {
   clear: both;
-  background-image: linear-gradient(to right, white 74%, #669966 74%);
+  background: #fff;
+  background: -moz-linear-gradient(top, white 74%, #669966 74%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(74%, white), color-stop(74%, #669966));
+  background: -webkit-linear-gradient(top, white 74%, #669966 74%);
+  background: -o-linear-gradient(top, white 74%, #669966 74%);
+  background: -ms-linear-gradient(top, white 74%, #669966 74%);
+  background: linear-gradient(to bottom, white 74%, #669966 74%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='$c2',GradientType=0 );
 }
 
 #content,
