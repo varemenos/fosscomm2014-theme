@@ -17,7 +17,7 @@
 			<?php get_sidebar( 'footer' ); ?>
 
 			<div class="site-info">
-				<p>Made by <a href="http://adonisk.com">Adonis K.</a></p>
+				<p>Created by <a href="http://adonisk.com">Adonis K.</a></p>
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->
 	</div><!-- #page -->
