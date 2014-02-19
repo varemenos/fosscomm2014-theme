@@ -2202,6 +2202,7 @@ aside h1 {
 .site-info p {
   margin: 0;
   padding: 1rem;
+  text-align: center;
 }
 
 blockquote {
