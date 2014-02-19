@@ -15,7 +15,7 @@ This theme, like WordPress, is licensed under the GPL.
 */
 
 $c1: #fff;
-$c2: #696;
+$c2: #669;
 $cw: #fff;
 $cb: #222;
 
@@ -136,6 +136,8 @@ body{
 
 	h2{
 		font-size: 2em;
+		color: #666;
+		font-weight: normal;
 	}
 
 	#primary{
@@ -146,6 +148,7 @@ body{
 		p{
 			text-align: left;
 			text-indent: 1.5em;
+			color: #888;
 		}
 	}
 }

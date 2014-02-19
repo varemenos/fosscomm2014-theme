@@ -1521,7 +1521,7 @@ a.post-thumbnail:hover {
 .widget input,
 .widget textarea {
   background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid #5c8a5c;
+  border: 1px solid #5c5c8a;
   color: #fff;
   font-size: 1em;
   padding: 1px 2px 2px 0.5em;
@@ -1529,7 +1529,7 @@ a.post-thumbnail:hover {
 
 .widget input:focus,
 .widget textarea:focus {
-  border-color: #527a52;
+  border-color: #52527a;
 }
 
 .widget button,
@@ -1822,7 +1822,7 @@ a.post-thumbnail:hover {
 
 .content-sidebar .widget input:focus,
 .content-sidebar .widget textarea:focus {
-  border-color: #527a52;
+  border-color: #52527a;
 }
 
 .content-sidebar .widget input[type="button"],
@@ -2015,7 +2015,7 @@ body {
   overflow-y: scroll;
   font-family: Tahoma, Arial, sans-serif;
   color: #222222;
-  background-color: #669966;
+  background-color: #666699;
 }
 
 #main {
@@ -2032,7 +2032,7 @@ body {
 }
 
 #masthead {
-  background-color: #669966;
+  background-color: #666699;
 }
 #masthead:before, #masthead:after {
   content: " ";
@@ -2096,14 +2096,14 @@ body {
   top: 3em;
   left: 0;
   width: 250px;
-  background-color: #669966;
+  background-color: #666699;
 }
 #masthead .nav-menu li:hover .sub-menu a {
   padding: 0.5rem 1rem;
-  border-bottom: 1px solid #5c8a5c;
+  border-bottom: 1px solid #5c5c8a;
 }
 #masthead .nav-menu li.current_page_item, #masthead .nav-menu li.current_page_ancestor, #masthead .nav-menu li.current_page_parent {
-  background-color: #5c8a5c;
+  background-color: #5c5c8a;
   -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2) inset;
   -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2) inset;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.2) inset;
@@ -2117,6 +2117,8 @@ body {
 }
 .home h2 {
   font-size: 2em;
+  color: #666;
+  font-weight: normal;
 }
 .home #primary {
   max-width: 1140px;
@@ -2126,17 +2128,18 @@ body {
 .home #primary p {
   text-align: left;
   text-indent: 1.5em;
+  color: #888;
 }
 
 #main {
   clear: both;
   background: #fff;
-  background: -moz-linear-gradient(left, white 74%, #669966 74%);
-  background: -webkit-gradient(linear, left top, right top, color-stop(74%, white), color-stop(74%, #669966));
-  background: -webkit-linear-gradient(top, white 74%, #669966 74%);
-  background: -o-linear-gradient(left, white 74%, #669966 74%);
-  background: -ms-linear-gradient(left, white 74%, #669966 74%);
-  background: linear-gradient(to right, white 74%, #669966 74%);
+  background: -moz-linear-gradient(left, white 74%, #666699 74%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(74%, white), color-stop(74%, #666699));
+  background: -webkit-linear-gradient(top, white 74%, #666699 74%);
+  background: -o-linear-gradient(left, white 74%, #666699 74%);
+  background: -ms-linear-gradient(left, white 74%, #666699 74%);
+  background: linear-gradient(to right, white 74%, #666699 74%);
 }
 @media only screen and (max-width: 1139px) {
   #main {
@@ -2156,7 +2159,7 @@ body {
 
 @media only screen and (max-width: 1139px) {
   #secondary {
-    background: #669966;
+    background: #666699;
   }
 }
 
