@@ -2132,6 +2132,11 @@ body {
   background: -ms-linear-gradient(left, white 74%, #669966 74%);
   background: linear-gradient(to right, white 74%, #669966 74%);
 }
+@media only screen and (max-width: 1139px) {
+  #main {
+    background: #fff;
+  }
+}
 
 #content,
 #primary-sidebar {
@@ -2141,6 +2146,12 @@ body {
 #primary,
 #secondary {
   padding-top: 2.5em;
+}
+
+@media only screen and (max-width: 1139px) {
+  #secondary {
+    background: #669966;
+  }
 }
 
 article {

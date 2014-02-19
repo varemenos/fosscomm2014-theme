@@ -151,6 +151,10 @@ body{
 	background: -o-linear-gradient(left, #fff 74%,$c2 74%);
 	background: -ms-linear-gradient(left, #fff 74%,$c2 74%);
 	background: linear-gradient(to right, #fff 74%,$c2 74%);
+
+	@media only screen and (max-width: 1139px){
+		background: #fff;
+	}
 }
 
 #content,
@@ -161,6 +165,12 @@ body{
 #primary,
 #secondary{
 	padding-top: 2.5em;
+}
+
+#secondary{
+	@media only screen and (max-width: 1139px){
+		background: $c2;
+	}
 }
 
 article{
