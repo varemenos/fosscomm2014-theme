@@ -7,14 +7,14 @@
 
 #secondary {
 	margin-top: -1px;
-	padding: 0 10px;
+	padding: 0 0.5em;
 	position: relative;
 	z-index: 2;
 }
 
 .site-description {
 	display: none;
-	font-size: 12px;
+	font-size: 0.5em;
 	font-weight: 400;
 	line-height: 1.5;
 }
@@ -22,7 +22,7 @@
 /* Primary Sidebar */
 
 .primary-sidebar {
-	padding-top: 48px;
+	padding-top: 2.5em;
 }
 
 .secondary-navigation + .primary-sidebar {
@@ -38,7 +38,7 @@
 	-moz-box-sizing:    border-box;
 	box-sizing:         border-box;
 	color: #767676;
-	padding: 48px 10px 0;
+	padding: 2.5em 0.5em 0;
 }
 
 
@@ -50,13 +50,13 @@
 /* Primary Sidebar, Footer Sidebar */
 
 .widget {
-	font-size: 14px;
+	font-size: 1em;
 	-webkit-hyphens: auto;
 	-moz-hyphens:    auto;
 	-ms-hyphens:     auto;
 	hyphens:         auto;
 	line-height: 1.2857142857;
-	margin-bottom: 48px;
+	margin-bottom: 2.5em;
 	width: 100%;
 	word-wrap: break-word;
 }
@@ -66,7 +66,7 @@
 }
 
 .widget a:hover {
-	color: #41a62a;
+	color: $cb;
 }
 
 .widget h1,
@@ -75,41 +75,41 @@
 .widget h4,
 .widget h5,
 .widget h6 {
-	margin: 24px 0 12px;
+	margin: 1.5em 0 0.5em;
 }
 
 .widget h1 {
-	font-size: 22px;
+	font-size: 1.5em;
 	line-height: 1.0909090909;
 }
 
 .widget h2 {
-	font-size: 20px;
+	font-size: 1.5em;
 	line-height: 1.2;
 }
 
 .widget h3 {
-	font-size: 18px;
+	font-size: 1em;
 	line-height: 1.3333333333;
 }
 
 .widget h4 {
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 1.5;
 }
 
 .widget h5 {
-	font-size: 14px;
+	font-size: 1em;
 	line-height: 1.7142857142;
 }
 
 .widget h6 {
-	font-size: 12px;
+	font-size: 0.5em;
 	line-height: 2;
 }
 
 .widget address {
-	margin-bottom: 18px;
+	margin-bottom: 1em;
 }
 
 .widget abbr[title] {
@@ -132,26 +132,26 @@
 .widget var,
 .widget samp,
 .widget pre {
-	font-size: 12px;
+	font-size: 0.5em;
 	line-height: 1.5;
 }
 
 .widget blockquote {
 	color: rgba(255, 255, 255, 0.7);
-	font-size: 18px;
+	font-size: 1em;
 	line-height: 1.5;
-	margin-bottom: 18px;
+	margin-bottom: 1em;
 }
 
 .widget blockquote cite {
 	color: #fff;
-	font-size: 14px;
+	font-size: 1em;
 	line-height: 1.2857142857;
 }
 
 .widget dl,
 .widget dd {
-	margin-bottom: 18px;
+	margin-bottom: 1em;
 }
 
 .widget ul,
@@ -163,7 +163,7 @@
 
 .widget li > ol,
 .widget li > ul {
-	margin-left: 10px;
+	margin-left: 0.5em;
 }
 
 .widget table,
@@ -173,7 +173,7 @@
 }
 
 .widget table {
-	margin-bottom: 18px;
+	margin-bottom: 1em;
 }
 
 .widget del {
@@ -185,21 +185,21 @@
 }
 
 .widget p {
-	margin-bottom: 18px;
+	margin-bottom: 1em;
 }
 
 .widget input,
 .widget textarea {
 	background-color: rgba(255, 255, 255, 0.1);
-	border-color: rgba(255, 255, 255, 0.2);
+	border: 1px solid darken($c2, 5%);
 	color: #fff;
-	font-size: 16px;
-	padding: 1px 2px 2px 4px;
+	font-size: 1em;
+	padding: 1px 2px 2px 0.5em;
 }
 
 .widget input:focus,
 .widget textarea:focus {
-	border-color: rgba(255, 255, 255, 0.3);
+	border-color: darken($c2, 10%);
 }
 
 .widget button,
@@ -208,8 +208,8 @@
 .widget input[type="submit"] {
 	background-color: #24890d;
 	border: 0;
-	font-size: 12px;
-	padding: 5px 15px 4px;
+	font-size: 0.75em;
+	padding: 0.5em 1em 0.5em;
 }
 
 .widget input[type="button"]:hover,
@@ -218,7 +218,7 @@
 .widget input[type="reset"]:focus,
 .widget input[type="submit"]:hover,
 .widget input[type="submit"]:focus {
-	background-color: #41a62a;
+	background-color: $cb;
 }
 
 .widget input[type="button"]:active,
@@ -229,14 +229,14 @@
 
 .widget .wp-caption {
 	color: rgba(255, 255, 255, 0.7);
-	margin-bottom: 18px;
+	margin-bottom: 1em;
 }
 
 .widget .widget-title {
-	font-size: 14px;
+	font-size: 1em;
 	font-weight: 700;
 	line-height: 1.7142857142;
-	margin: 0 0 24px 0;
+	margin: 0 0 1.5em 0;
 	text-transform: uppercase;
 }
 
@@ -246,7 +246,7 @@
 }
 
 .widget-title a:hover {
-	color: #41a62a;
+	color: $cb;
 }
 
 /* Calendar Widget*/
@@ -260,7 +260,7 @@
 	color: #fff;
 	font-weight: 700;
 	line-height: 1.7142857142;
-	margin-bottom: 18px;
+	margin-bottom: 1em;
 	text-align: left;
 	text-transform: uppercase;
 }
@@ -281,7 +281,7 @@
 }
 
 .widget_calendar tbody a:hover {
-	background-color: #41a62a;
+	background-color: $cb;
 }
 
 .widget_calendar tbody a:hover {
@@ -289,11 +289,11 @@
 }
 
 .widget_calendar #prev {
-	padding-left: 5px;
+	padding-left: 0.5em;
 }
 
 .widget_calendar #next {
-	padding-right: 5px;
+	padding-right: 0.5em;
 	text-align: right;
 }
 
@@ -301,7 +301,7 @@
 
 .widget_twentyfourteen_ephemera > ol > li {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-	margin-bottom: 18px;
+	margin-bottom: 1em;
 	padding: 0;
 }
 
@@ -315,7 +315,7 @@
 .widget_twentyfourteen_ephemera .wp-caption-text,
 .widget_twentyfourteen_ephemera .post-format-archive-link,
 .widget_twentyfourteen_ephemera .entry-content table {
-	font-size: 12px;
+	font-size: 0.5em;
 	line-height: 1.5;
 }
 
@@ -325,7 +325,7 @@
 }
 
 .widget_twentyfourteen_ephemera .entry-meta {
-	margin-bottom: 18px;
+	margin-bottom: 1em;
 }
 
 .widget_twentyfourteen_ephemera .entry-meta a {
@@ -333,12 +333,12 @@
 }
 
 .widget_twentyfourteen_ephemera .entry-meta a:hover {
-	color: #41a62a;
+	color: $cb;
 }
 
 .widget_twentyfourteen_ephemera .entry-content ul,
 .widget_twentyfourteen_ephemera .entry-content ol {
-	margin: 0 0 18px 20px;
+	margin: 0 0 1em 1.5em;
 }
 
 .widget_twentyfourteen_ephemera .entry-content ul {
@@ -351,7 +351,7 @@
 
 .widget_twentyfourteen_ephemera .entry-content li > ul,
 .widget_twentyfourteen_ephemera .entry-content li > ol {
-	margin: 0 0 0 20px;
+	margin: 0 0 0 1.5em;
 }
 
 .widget_twentyfourteen_ephemera .entry-content th,
@@ -411,7 +411,7 @@
 /* RSS Widget */
 
 .rsswidget img {
-	margin-top: -4px;
+	margin-top: -0.5em;
 }
 
 .rssSummary {
@@ -423,7 +423,7 @@
 }
 
 .widget_rss li {
-	margin-bottom: 18px;
+	margin-bottom: 1em;
 }
 
 .widget_rss li:last-child {
@@ -447,7 +447,7 @@
 }
 
 .content-sidebar .widget a:hover {
-	color: #41a62a;
+	color: $cb;
 }
 
 .content-sidebar .widget pre {
@@ -477,7 +477,7 @@
 
 .content-sidebar .widget li > ol,
 .content-sidebar .widget li > ul {
-	margin-left: 18px;
+	margin-left: 1em;
 }
 
 .content-sidebar .widget table,
@@ -503,7 +503,7 @@
 
 .content-sidebar .widget input:focus,
 .content-sidebar .widget textarea:focus {
-	border-color: rgba(0, 0, 0, 0.3);
+	border-color: darken($c2, 10%);
 }
 
 .content-sidebar .widget input[type="button"],
@@ -520,7 +520,7 @@
 .content-sidebar .widget input[type="reset"]:focus,
 .content-sidebar .widget input[type="submit"]:hover,
 .content-sidebar .widget input[type="submit"]:focus {
-	background-color: #41a62a;
+	background-color: $cb;
 }
 
 .content-sidebar .widget input[type="button"]:active,
@@ -534,11 +534,11 @@
 }
 
 .content-sidebar .widget .widget-title {
-	border-top: 5px solid #000;
+	border-top: 0.5em solid #000;
 	color: #2b2b2b;
-	font-size: 14px;
+	font-size: 1em;
 	font-weight: 900;
-	margin: 0 0 18px;
+	margin: 0 0 1em;
 	padding-top: 7px;
 	text-transform: uppercase;
 }
@@ -548,7 +548,7 @@
 }
 
 .content-sidebar .widget .widget-title a:hover {
-	color: #41a62a;
+	color: $cb;
 }
 
 /* List Style Widgets*/
@@ -641,7 +641,7 @@
 }
 
 .content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover {
-	color: #41a62a;
+	color: $cb;
 }
 
 .content-sidebar.widget_twentyfourteen_ephemera blockquote cite {

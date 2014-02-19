@@ -14,17 +14,17 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 This theme, like WordPress, is licensed under the GPL.
 */
 
+$c1: #fff;
+$c2: #696;
+$cw: #fff;
+$cb: #222;
+
 @import '_normalize';
 @import '_content';
 @import '_widgets';
 @import '_verepo';
 
 @include grid(12, 1rem);
-
-$c1: #fff;
-$c2: #696;
-$cw: #fff;
-$cb: #222;
 
 body{
 	text-rendering: optimizeLegibility;
