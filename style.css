@@ -1387,11 +1387,11 @@ a.post-thumbnail:hover {
   margin-bottom: 2.5em;
   width: 100%;
   word-wrap: break-word;
-  color: white;
+  color: #666699;
 }
 
 .widget a {
-  color: white;
+  color: #666699;
   text-decoration: none;
 }
 
@@ -1536,7 +1536,8 @@ a.post-thumbnail:hover {
 .widget input[type="button"],
 .widget input[type="reset"],
 .widget input[type="submit"] {
-  background-color: #24890d;
+  color: #666699;
+  background-color: #222222;
   border: 0;
   font-size: 0.75em;
   padding: 0.5em 1em 0.5em;
@@ -1548,13 +1549,14 @@ a.post-thumbnail:hover {
 .widget input[type="reset"]:focus,
 .widget input[type="submit"]:hover,
 .widget input[type="submit"]:focus {
-  background-color: white;
+  color: #7575a3;
+  background-color: #151515;
 }
 
 .widget input[type="button"]:active,
 .widget input[type="reset"]:active,
 .widget input[type="submit"]:active {
-  background-color: #55d737;
+  background-color: #666699;
 }
 
 .widget .wp-caption {
@@ -1571,11 +1573,11 @@ a.post-thumbnail:hover {
 
 .widget-title,
 .widget-title a {
-  color: white;
+  color: #666699;
 }
 
 .widget-title a:hover {
-  color: white;
+  color: #666699;
 }
 
 /* Calendar Widget*/
@@ -1602,13 +1604,15 @@ a.post-thumbnail:hover {
 }
 
 .widget_calendar tbody a {
-  background-color: #24890d;
+  color: #666699;
+  background-color: #222222;
   color: #fff;
   display: block;
 }
 
 .widget_calendar tbody a:hover {
-  background-color: white;
+  color: #666699;
+  background-color: #151515;
 }
 
 .widget_calendar tbody a:hover {
@@ -1659,7 +1663,7 @@ a.post-thumbnail:hover {
 }
 
 .widget_twentyfourteen_ephemera .entry-meta a:hover {
-  color: white;
+  color: #666699;
 }
 
 .widget_twentyfourteen_ephemera .entry-content ul,
@@ -1698,7 +1702,7 @@ a.post-thumbnail:hover {
 .widget_pages li,
 .widget_recent_comments li,
 .widget_recent_entries li {
-  border-top: 1px solid white;
+  border-top: 1px solid #666699;
   padding: 0.5em 0 0.5em;
 }
 
@@ -1762,11 +1766,12 @@ a.post-thumbnail:hover {
  * -----------------------------------------------------------------------------
  */
 .content-sidebar .widget a {
-  color: #24890d;
+  color: #222222;
+  color: #666699;
 }
 
 .content-sidebar .widget a:hover {
-  color: white;
+  color: #666699;
 }
 
 .content-sidebar .widget pre {
@@ -1828,7 +1833,8 @@ a.post-thumbnail:hover {
 .content-sidebar .widget input[type="button"],
 .content-sidebar .widget input[type="reset"],
 .content-sidebar .widget input[type="submit"] {
-  background-color: #24890d;
+  color: #666699;
+  background-color: #222222;
   border: 0;
   color: #fff;
 }
@@ -1839,13 +1845,14 @@ a.post-thumbnail:hover {
 .content-sidebar .widget input[type="reset"]:focus,
 .content-sidebar .widget input[type="submit"]:hover,
 .content-sidebar .widget input[type="submit"]:focus {
-  background-color: white;
+  color: #666699;
+  background-color: #151515;
 }
 
 .content-sidebar .widget input[type="button"]:active,
 .content-sidebar .widget input[type="reset"]:active,
 .content-sidebar .widget input[type="submit"]:active {
-  background-color: #55d737;
+  background-color: #666699;
 }
 
 .content-sidebar .widget .wp-caption {
@@ -1866,7 +1873,7 @@ a.post-thumbnail:hover {
 }
 
 .content-sidebar .widget .widget-title a:hover {
-  color: white;
+  color: #666699;
 }
 
 /* List Style Widgets*/

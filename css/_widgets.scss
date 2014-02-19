@@ -59,11 +59,11 @@
 	margin-bottom: 2.5em;
 	width: 100%;
 	word-wrap: break-word;
-	color: $cw;
+	color: $c;
 }
 
 .widget a {
-	color: $cw;
+	color: $c;
 	text-decoration: none;
 }
 
@@ -193,7 +193,7 @@
 .widget input,
 .widget textarea {
 	background-color: rgba(255, 255, 255, 0.1);
-	border: 1px solid darken($c2, 5%);
+	border: 1px solid darken($c, 5%);
 	color: #fff;
 	font-size: 1em;
 	padding: 1px 2px 2px 0.5em;
@@ -201,15 +201,15 @@
 
 .widget input:focus,
 .widget textarea:focus {
-	border-color: darken($c2, 10%);
+	border-color: darken($c, 10%);
 }
 
 .widget button,
 .widget input[type="button"],
 .widget input[type="reset"],
 .widget input[type="submit"] {
-	color: $cb;
-	background-color: $cw;
+	color: $c;
+	background-color: $cb;
 	border: 0;
 	font-size: 0.75em;
 	padding: 0.5em 1em 0.5em;
@@ -221,14 +221,14 @@
 .widget input[type="reset"]:focus,
 .widget input[type="submit"]:hover,
 .widget input[type="submit"]:focus {
-	color: $cb;
-	background-color: $cw;
+	color: lighten($c, 5%);
+	background-color: darken($cb, 5%);
 }
 
 .widget input[type="button"]:active,
 .widget input[type="reset"]:active,
 .widget input[type="submit"]:active {
-	background-color: $cw;
+	background-color: $c;
 }
 
 .widget .wp-caption {
@@ -245,11 +245,11 @@
 
 .widget-title,
 .widget-title a {
-	color: $cw;
+	color: $c;
 }
 
 .widget-title a:hover {
-	color: $cw;
+	color: $c;
 }
 
 /* Calendar Widget*/
@@ -277,15 +277,15 @@
 }
 
 .widget_calendar tbody a {
-	color: $cb;
-	background-color: $cw;
+	color: $c;
+	background-color: $cb;
 	color: #fff;
 	display: block;
 }
 
 .widget_calendar tbody a:hover {
-	color: $cb;
-	background-color: $cw;
+	color: $c;
+	background-color: darken($cb, 5%);
 }
 
 .widget_calendar tbody a:hover {
@@ -337,7 +337,7 @@
 }
 
 .widget_twentyfourteen_ephemera .entry-meta a:hover {
-	color: $cw;
+	color: $c;
 }
 
 .widget_twentyfourteen_ephemera .entry-content ul,
@@ -377,7 +377,7 @@
 .widget_pages li,
 .widget_recent_comments li,
 .widget_recent_entries li {
-	border-top: 1px solid $cw;
+	border-top: 1px solid $c;
 	padding: 0.5em 0 0.5em;
 }
 
@@ -447,11 +447,11 @@
 
 .content-sidebar .widget a {
 	color: $cb;
-	color: $cw;
+	color: $c;
 }
 
 .content-sidebar .widget a:hover {
-	color: $cw;
+	color: $c;
 }
 
 .content-sidebar .widget pre {
@@ -507,14 +507,14 @@
 
 .content-sidebar .widget input:focus,
 .content-sidebar .widget textarea:focus {
-	border-color: darken($c2, 10%);
+	border-color: darken($c, 10%);
 }
 
 .content-sidebar .widget input[type="button"],
 .content-sidebar .widget input[type="reset"],
 .content-sidebar .widget input[type="submit"] {
-	color: $cb;
-	background-color: $cw;
+	color: $c;
+	background-color: $cb;
 	border: 0;
 	color: #fff;
 }
@@ -525,14 +525,14 @@
 .content-sidebar .widget input[type="reset"]:focus,
 .content-sidebar .widget input[type="submit"]:hover,
 .content-sidebar .widget input[type="submit"]:focus {
-	color: $cb;
-	background-color: $cw;
+	color: $c;
+	background-color: darken($cb, 5%);
 }
 
 .content-sidebar .widget input[type="button"]:active,
 .content-sidebar .widget input[type="reset"]:active,
 .content-sidebar .widget input[type="submit"]:active {
-	background-color: $cw;
+	background-color: $c;
 }
 
 .content-sidebar .widget .wp-caption {
@@ -553,7 +553,7 @@
 }
 
 .content-sidebar .widget .widget-title a:hover {
-	color: $cw;
+	color: $c;
 }
 
 /* List Style Widgets*/
