@@ -2066,6 +2066,10 @@ body {
 }
 @media only screen and (max-width: 1139px) {
   #masthead .menu-toggle {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     display: block;
     position: relative;
     margin: 0;
