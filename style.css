@@ -2050,16 +2050,39 @@ body {
 #masthead:after {
   clear: both;
 }
-#masthead .header-main {
-  float: left;
-}
-#masthead #search-container {
-  float: right;
-}
-#masthead .menu-toggle,
 #masthead .skip-link,
 #masthead .search-toggle a {
   display: none;
+}
+#masthead .menu-toggle {
+  display: none;
+}
+@media only screen and (max-width: 1139px) {
+  #masthead .menu-toggle {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding-left: 1.5em;
+    padding-bottom: 0.25rem;
+  }
+  #masthead .menu-toggle:before {
+    content: "";
+    position: absolute;
+    left: 0.3em;
+    top: 0.3em;
+    width: 1em;
+    height: 0.17em;
+    background: black;
+    box-shadow: 0 0.25em 0 0 black, 0 0.5em 0 0 black;
+  }
+}
+@media only screen and (max-width: 1139px) {
+  #masthead #primary-navigation .nav-menu {
+    display: none;
+  }
+  #masthead #primary-navigation.toggled-on .nav-menu {
+    display: block;
+  }
 }
 #masthead .nav-menu {
   list-style: none;
@@ -2117,6 +2140,45 @@ body {
   -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2) inset;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.2) inset;
 }
+@media only screen and (max-width: 1139px) {
+  #masthead .nav-menu li {
+    float: none;
+  }
+  #masthead .nav-menu li:hover .sub-menu {
+    display: block;
+    position: relative;
+    top: initial;
+    left: initial;
+    width: auto;
+    padding-left: 2rem;
+    background-color: initial;
+  }
+  #masthead .nav-menu li:hover .sub-menu a {
+    padding: 1rem;
+    border-bottom: none;
+  }
+  #masthead .nav-menu li .sub-menu {
+    display: block;
+    position: relative;
+    top: initial;
+    left: initial;
+    width: auto;
+    padding-left: 2rem;
+    background-color: initial;
+  }
+  #masthead .nav-menu li.current_page_item, #masthead .nav-menu li.current_page_ancestor, #masthead .nav-menu li.current_page_parent {
+    background-color: initial;
+    -webkit-box-shadow: initial;
+    -moz-box-shadow: initial;
+    box-shadow: initial;
+  }
+  #masthead .nav-menu li.current_page_item > a {
+    background-color: #5c5c8a;
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2) inset;
+  }
+}
 
 .home #main {
   background: #fff;
@@ -2142,6 +2204,7 @@ body {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   padding: 1em;
+  line-height: 1.5;
   text-align: justify;
   text-indent: 1.5em;
   color: #777;
