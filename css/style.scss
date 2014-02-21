@@ -99,6 +99,15 @@ body{
 			}
 
 			&.toggled-on{
+				.menu-toggle{
+					color: #fff;
+
+					&:before{
+						background: white;
+						box-shadow: 0 0.25em 0 0 white, 0 0.5em 0 0 white;
+					}
+				}
+
 				.nav-menu{
 					display: block;
 				}
