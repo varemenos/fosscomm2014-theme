@@ -2327,3 +2327,7 @@ blockquote p {
     display: none;
   }
 }
+
+textarea {
+  max-width: 100%;
+}
