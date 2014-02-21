@@ -2092,6 +2092,13 @@ body {
   #masthead #primary-navigation .nav-menu {
     display: none;
   }
+  #masthead #primary-navigation.toggled-on .menu-toggle {
+    color: #fff;
+  }
+  #masthead #primary-navigation.toggled-on .menu-toggle:before {
+    background: white;
+    box-shadow: 0 0.25em 0 0 white, 0 0.5em 0 0 white;
+  }
   #masthead #primary-navigation.toggled-on .nav-menu {
     display: block;
   }
