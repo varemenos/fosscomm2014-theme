@@ -68,7 +68,7 @@ body{
 		display: none;
 
 		@media only screen and (max-width: 1139px){
-			display: inline-block;
+			display: block;
 			position: relative;
 			margin: 0;
 			padding-left: 1.5em;
@@ -89,6 +89,8 @@ body{
 
 	#primary-navigation{
 		@media only screen and (max-width: 1139px){
+			cursor: pointer;
+
 			.nav-menu{
 				display: none;
 			}

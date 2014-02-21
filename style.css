@@ -2059,7 +2059,7 @@ body {
 }
 @media only screen and (max-width: 1139px) {
   #masthead .menu-toggle {
-    display: inline-block;
+    display: block;
     position: relative;
     margin: 0;
     padding-left: 1.5em;
@@ -2077,6 +2077,9 @@ body {
   }
 }
 @media only screen and (max-width: 1139px) {
+  #masthead #primary-navigation {
+    cursor: pointer;
+  }
   #masthead #primary-navigation .nav-menu {
     display: none;
   }
