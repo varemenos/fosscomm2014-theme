@@ -25,12 +25,14 @@ $cb: #222;
 
 @include grid(12, 1rem);
 
+@include font-face(Roboto, fonts/Roboto-Regular);
+
 body{
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	overflow-x: auto;
 	overflow-y: scroll;
-	font-family: Tahoma, Arial, sans-serif;
+	font-family: "Roboto", Tahoma, Arial, sans-serif;
 	color: $cb;
 	background-color: $c;
 }

@@ -2015,12 +2015,20 @@ a.post-thumbnail:hover {
   }
 }
 
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/Roboto-Regular.eot);
+  src: url(fonts/Roboto-Regular.eot?#iefix) format("embedded-opentype"), url(fonts/Roboto-Regular.woff) format("woff"), url(fonts/Roboto-Regular.ttf) format("truetype"), url(fonts/Roboto-Regular.svg#Roboto) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   overflow-x: auto;
   overflow-y: scroll;
-  font-family: Tahoma, Arial, sans-serif;
+  font-family: "Roboto", Tahoma, Arial, sans-serif;
   color: #222222;
   background-color: #666699;
 }
