@@ -2037,11 +2037,6 @@ body {
   padding-bottom: 0;
 }
 
-#site-header {
-  position: fixed;
-  z-index: 100;
-  width: 100%;
-}
 #site-header a {
   display: block;
 }
@@ -2052,6 +2047,9 @@ body {
 }
 
 #masthead {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
   background-color: #666699;
 }
 #masthead:before, #masthead:after {

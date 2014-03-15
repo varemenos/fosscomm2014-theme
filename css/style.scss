@@ -44,10 +44,6 @@ body{
 }
 
 #site-header{
-	position: fixed;
-	z-index: 100;
-	width: 100%;
-
 	a{
 		display: block;
 
@@ -62,6 +58,9 @@ body{
 
 #masthead{
 	@include clearfix;
+	position: fixed;
+	z-index: 100;
+	width: 100%;
 	background-color: $c;
 
 	.skip-link,
