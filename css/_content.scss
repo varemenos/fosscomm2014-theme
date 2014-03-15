@@ -249,6 +249,12 @@ a.post-thumbnail:hover {
 	font-size: 1em;
 	line-height: 1.2857142857;
 	margin-bottom: 1.5em;
+
+	td img{
+		width: auto;
+		max-height: 150px;
+		max-width: 100%;
+	}
 }
 
 .entry-content th,

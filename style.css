@@ -648,6 +648,12 @@ a.post-thumbnail:hover {
   line-height: 1.2857142857;
   margin-bottom: 1.5em;
 }
+.entry-content table td img,
+.comment-content table td img {
+  width: auto;
+  max-height: 150px;
+  max-width: 100%;
+}
 
 .entry-content th,
 .comment-content th {
@@ -2319,9 +2325,10 @@ aside h1 {
 
 blockquote {
   background: #f5f5f5;
+  margin: 0;
   padding: 1em;
-  margin: 0 0 0 2rem;
   color: #666;
+  text-indent: 1rem;
 }
 blockquote p {
   margin: 0;
