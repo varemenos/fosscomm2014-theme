@@ -73,8 +73,6 @@ body{
 
 #masthead{
 	@include clearfix;
-	position: fixed;
-	z-index: 100;
 	width: 100%;
 	background-color: $c;
 
