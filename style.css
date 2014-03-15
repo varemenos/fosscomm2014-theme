@@ -2027,6 +2027,22 @@ a.post-thumbnail:hover {
   font-weight: normal;
   font-style: normal;
 }
+.home #primary p.half-width, .home #blog article {
+  width: 50%;
+  float: left;
+}
+@media only screen and (max-width: 1139px) {
+  .home #primary p.half-width, .home #blog article {
+    width: 100%;
+    float: none;
+  }
+}
+
+.home #primary p.full-width {
+  width: 100%;
+  clear: both;
+}
+
 body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -2217,6 +2233,12 @@ body {
 .home h1 {
   font-size: 3em;
 }
+.home h1 a, .home h1 a:visited {
+  text-decoration: none;
+}
+.home h1 a:focus, .home h1 a:hover {
+  text-decoration: underline;
+}
 .home h2 {
   font-size: 2em;
   color: #666;
@@ -2239,19 +2261,15 @@ body {
   text-indent: 1.5em;
   color: #777;
 }
-.home #primary p.half-width {
-  width: 50%;
-  float: left;
+.home #blog:before, .home #blog:after {
+  content: " ";
+  display: table;
 }
-@media only screen and (max-width: 1139px) {
-  .home #primary p.half-width {
-    width: 100%;
-    float: none;
-  }
-}
-.home #primary p.full-width {
-  width: 100%;
+.home #blog:after {
   clear: both;
+}
+.home #blog article h1 {
+  font-size: 1.5em;
 }
 
 #main {

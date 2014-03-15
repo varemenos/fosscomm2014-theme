@@ -27,6 +27,21 @@ $cb: #222;
 
 @include font-face(Roboto, fonts/Roboto-Regular);
 
+%half-width{
+	width: 50%;
+	float: left;
+
+	@media only screen and (max-width: 1139px){
+		width: 100%;
+		float: none;
+	}
+}
+
+%full-width{
+	width: 100%;
+	clear: both;
+}
+
 body{
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -224,6 +239,18 @@ body{
 
 	h1{
 		font-size: 3em;
+
+		a{
+			&,
+			&:visited{
+				text-decoration: none;
+			}
+
+			&:focus,
+			&:hover{
+				text-decoration: underline;
+			}
+		}
 	}
 
 	h2{
@@ -247,18 +274,23 @@ body{
 			color: #777;
 
 			&.half-width{
-				width: 50%;
-				float: left;
-
-				@media only screen and (max-width: 1139px){
-					width: 100%;
-					float: none;
-				}
+				@extend %half-width;
 			}
 
 			&.full-width{
-				width: 100%;
-				clear: both;
+				@extend %full-width;
+			}
+		}
+	}
+
+	#blog{
+		@include clearfix;
+
+		article{
+			@extend %half-width;
+
+			h1{
+				font-size: 1.5em;
 			}
 		}
 	}
