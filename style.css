@@ -2232,7 +2232,7 @@ body {
 }
 .home h2 {
   font-size: 2em;
-  color: #666;
+  color: #444;
   font-weight: normal;
 }
 .home #primary {
@@ -2250,7 +2250,7 @@ body {
   line-height: 1.5;
   text-align: justify;
   text-indent: 1.5em;
-  color: #777;
+  color: #666;
 }
 .home #blog:before, .home #blog:after {
   content: " ";
