@@ -29,6 +29,7 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css">
 </head>
 
 <body <?php body_class(); ?>>
@@ -41,6 +42,16 @@
 				<h1 class="menu-toggle"><?php _e( 'Menu', 'twentyfourteen' ); ?></h1>
 				<a class="screen-reader-text skip-link" href="#content"><?php _e( 'Skip to content', 'twentyfourteen' ); ?></a>
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+			</nav>
+
+			<nav id="secondary-navigation" role="navigation" class="navigation site-navigation secondary-navigation">
+				<div class="menu-social-container">
+					<ul id="menu-social" class="nav-menu">
+						<li id="menu-item-248" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-248"><a href="https://www.facebook.com/fosscomm"><i class="fa fa-facebook"></i></a></li>
+						<li id="menu-item-250" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-250"><a href="https://twitter.com/FOSSCOMM2014"><i class="fa fa-twitter"></i></a></li>
+						<li id="menu-item-249" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-249"><a href="https://plus.google.com/103327935852759692880"><i class="fa fa-google-plus"></i>+</a></li>
+					</ul>
+				</div>
 			</nav>
 		</div>
 	</header><!-- #masthead -->

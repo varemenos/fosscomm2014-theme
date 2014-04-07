@@ -2103,21 +2103,33 @@ body {
     box-shadow: 0 0.25em 0 0 black, 0 0.5em 0 0 black;
   }
 }
+#masthead #primary-navigation {
+  float: left;
+}
+#masthead #secondary-navigation {
+  float: right;
+}
 @media only screen and (max-width: 1139px) {
-  #masthead #primary-navigation {
+  #masthead #primary-navigation,
+  #masthead #secondary-navigation {
+    float: none;
     cursor: pointer;
   }
-  #masthead #primary-navigation .nav-menu {
+  #masthead #primary-navigation .nav-menu,
+  #masthead #secondary-navigation .nav-menu {
     display: none;
   }
-  #masthead #primary-navigation.toggled-on .menu-toggle {
+  #masthead #primary-navigation.toggled-on .menu-toggle,
+  #masthead #secondary-navigation.toggled-on .menu-toggle {
     color: #fff;
   }
-  #masthead #primary-navigation.toggled-on .menu-toggle:before {
+  #masthead #primary-navigation.toggled-on .menu-toggle:before,
+  #masthead #secondary-navigation.toggled-on .menu-toggle:before {
     background: white;
     box-shadow: 0 0.25em 0 0 white, 0 0.5em 0 0 white;
   }
-  #masthead #primary-navigation.toggled-on .nav-menu {
+  #masthead #primary-navigation.toggled-on .nav-menu,
+  #masthead #secondary-navigation.toggled-on .nav-menu {
     display: block;
   }
 }
