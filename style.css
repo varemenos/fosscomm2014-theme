@@ -2338,10 +2338,13 @@ aside h1 {
   padding: 0;
   text-align: center;
   background-color: white;
-  border: 1em solid #666699;
+  border-top: 1em solid #666699;
 }
 #sponsors > li {
   display: inline-block;
+}
+#sponsors li {
+  padding: 1rem;
 }
 #sponsors img {
   height: 100%;
