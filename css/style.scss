@@ -363,7 +363,11 @@ aside{
 	@include inline-list;
 	text-align: center;
 	background-color: $cw;
-	border: 1em solid $c;
+	border-top: 1em solid $c;
+
+	li{
+		padding: 1rem;
+	}
 
 	img{
 		height: 100%;
