@@ -16,6 +16,8 @@
 
 			<?php get_sidebar( 'footer' ); ?>
 
+			<h2>Sponsors</h2>
+
 			<ul id="sponsors">
 				<li>
 					<a href="http://www.ellak.gr"><img src="/wp-content/themes/fosscomm2014/img/eellak100.png" alt="ΕΛ/ΛΑΚ"></a>

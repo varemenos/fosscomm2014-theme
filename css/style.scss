@@ -363,6 +363,11 @@ footer{
 	text-align: center;
 	background-color: $cw;
 	border-top: 1em solid $c;
+
+	h2{
+		margin-top: 1rem;
+		margin-bottom: 0;
+	}
 }
 
 #sponsors{
