@@ -359,11 +359,14 @@ aside{
 	}
 }
 
-#sponsors{
-	@include inline-list;
+footer{
 	text-align: center;
 	background-color: $cw;
 	border-top: 1em solid $c;
+}
+
+#sponsors{
+	@include inline-list;
 
 	li{
 		padding: 1rem;
@@ -377,6 +380,7 @@ aside{
 
 .site-info{
 	color: $cw;
+	background-color: $c;
 
 	a{
 		&,
@@ -393,7 +397,6 @@ aside{
 	p{
 		margin: 0;
 		padding: 1rem;
-		text-align: center;
 	}
 }
 

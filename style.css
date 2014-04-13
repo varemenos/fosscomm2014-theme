@@ -2329,6 +2329,12 @@ aside h1 {
   margin-top: 0;
 }
 
+footer {
+  text-align: center;
+  background-color: white;
+  border-top: 1em solid #666699;
+}
+
 #sponsors {
   list-style: none;
   list-style-position: outside;
@@ -2336,9 +2342,6 @@ aside h1 {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  text-align: center;
-  background-color: white;
-  border-top: 1em solid #666699;
 }
 #sponsors > li {
   display: inline-block;
@@ -2353,6 +2356,7 @@ aside h1 {
 
 .site-info {
   color: white;
+  background-color: #666699;
 }
 .site-info a, .site-info a:visited {
   color: white;
@@ -2363,7 +2367,6 @@ aside h1 {
 .site-info p {
   margin: 0;
   padding: 1rem;
-  text-align: center;
 }
 
 blockquote {
