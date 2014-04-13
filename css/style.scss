@@ -362,6 +362,8 @@ aside{
 #sponsors{
 	@include inline-list;
 	text-align: center;
+	background-color: $cw;
+	border: 1em solid $c;
 
 	img{
 		height: 100%;

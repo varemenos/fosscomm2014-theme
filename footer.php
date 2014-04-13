@@ -18,10 +18,10 @@
 
 			<ul id="sponsors">
 				<li>
-					<a href="http://www.ellak.gr"><img src="img/eellak100.png" alt="ΕΛ/ΛΑΚ"></a>
+					<a href="http://www.ellak.gr"><img src="/wp-content/themes/fosscomm2014/img/eellak100.png" alt="ΕΛ/ΛΑΚ"></a>
 				</li>
 				<li>
-					<a href="http://www.teiste.gr"><img src="img/teiste.png" alt="ΤΕΙ Στερεάς Ελλάδας"></a>
+					<a href="http://www.teiste.gr"><img src="/wp-content/themes/fosscomm2014/img/teiste.png" alt="ΤΕΙ Στερεάς Ελλάδας"></a>
 				</li>
 			</ul>
 			<div class="site-info">

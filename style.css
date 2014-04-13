@@ -2337,6 +2337,8 @@ aside h1 {
   margin: 0;
   padding: 0;
   text-align: center;
+  background-color: white;
+  border: 1em solid #666699;
 }
 #sponsors > li {
   display: inline-block;
