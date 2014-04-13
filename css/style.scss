@@ -359,6 +359,16 @@ aside{
 	}
 }
 
+#sponsors{
+	@include inline-list;
+	text-align: center;
+
+	img{
+		height: 100%;
+		width: auto;
+	}
+}
+
 .site-info{
 	color: $cw;
 

@@ -16,6 +16,14 @@
 
 			<?php get_sidebar( 'footer' ); ?>
 
+			<ul id="sponsors">
+				<li>
+					<a href="http://www.ellak.gr"><img src="img/eellak100.png" alt="ΕΛ/ΛΑΚ"></a>
+				</li>
+				<li>
+					<a href="http://www.teiste.gr"><img src="img/teiste.png" alt="ΤΕΙ Στερεάς Ελλάδας"></a>
+				</li>
+			</ul>
 			<div class="site-info">
 				<p>Created by <a href="http://adonisk.com">Adonis K.</a></p>
 			</div><!-- .site-info -->
