@@ -2334,6 +2334,10 @@ footer {
   background-color: white;
   border-top: 1em solid #666699;
 }
+footer h2 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
 
 #sponsors {
   list-style: none;
