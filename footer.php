@@ -24,6 +24,8 @@
 				</li>
 				<li>
 					<a href="http://www.eln.teiste.gr"><img src="/wp-content/themes/fosscomm2014/img/eln.png" alt="Ηλεκτρονικών Μηχανικών ΤΕ"></a>
+				</li>
+				<li>
 					<a href="http://www.inf.teilam.gr"><img src="/wp-content/themes/fosscomm2014/img/inf.png" alt="Μηχανικών Πληροφορικής ΤΕ"></a>
 				</li>
 			</ul>
