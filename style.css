@@ -2416,6 +2416,8 @@ textarea {
 .parent-pageid-23 table td {
   border: 1px solid  #999;
   padding: 1em;
+  -moz-hyphens: none;
+  hyphens: none;
 }
 .parent-pageid-23 .break {
   background-color: #ccc;

@@ -455,6 +455,8 @@ textarea{
 		td{
 			border: 1px solid  #999;
 			padding: 1em;
+			-moz-hyphens: none;
+			hyphens: none;
 		}
 	}
 
