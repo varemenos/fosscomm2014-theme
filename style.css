@@ -2398,3 +2398,21 @@ textarea {
 .screen-reader-text {
   display: none;
 }
+
+.parent-pageid-23 table {
+  width: 100%;
+  text-align: center;
+}
+.parent-pageid-23 table td {
+  border: 1px solid  #999;
+  padding: 1em;
+}
+.parent-pageid-23 .break {
+  background-color: #ccc;
+}
+.parent-pageid-23 .time {
+  font-weight: bold;
+}
+.parent-pageid-23 .speakers {
+  margin-top: 1em;
+}
