@@ -2285,6 +2285,9 @@ body {
   background: -ms-linear-gradient(left, white 74%, #666699 74%);
   background: linear-gradient(to right, white 74%, #666699 74%);
 }
+#main .full-width {
+  background: #fff;
+}
 @media only screen and (max-width: 1139px) {
   #main {
     background: #fff;

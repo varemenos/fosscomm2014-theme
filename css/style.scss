@@ -312,6 +312,15 @@ body{
 	background: -ms-linear-gradient(left, #fff 74%,$c 74%);
 	background: linear-gradient(to right, #fff 74%,$c 74%);
 
+	&.full-width{
+		background: #fff;
+
+		.main-content{
+			float: none;
+			padding-right: 0;
+		}
+	}
+
 	@media only screen and (max-width: 1139px){
 		background: #fff;
 	}
