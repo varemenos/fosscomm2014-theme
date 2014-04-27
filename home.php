@@ -26,17 +26,6 @@ get_header(); ?>
 				<p class="half-width">Το 2014 το FOSSCOMM διοργανώνεται από την <a href="http://linuxteam.teilam.gr">Ομάδα Linux & Ελεύθερου λογισμικού του ΤΕΙ Στερεάς Ελλάδας</a> με την στήριξη των τμημάτων <a href="http://eln.teiste.gr">Ηλεκτρονικών Μηχανικών ΤΕ</a> και <a href="http://www.inf.teilam.gr">Μηχανικών Πληροφορικής ΤΕ</a> και απευθύνεται σε όσους ενδιαφέρονται για το Ελεύθερο Λογισμικό/Λογισμικό Ανοιχτού Κώδικα, ανεξάρτητα από το επίπεδο γνώσεων που διαθέτουν στην χρήση λογισμικών και υπολογιστών.</p>
 				<p class="full-width">Η συμμετοχή στo FOSSCOMM είναι ελεύθερη και δωρεάν και όλα τα έξοδα διεξαγωγής καλύπτονται από δωρεές και χορηγίες. Η διοργάνωση γίνεται αποκλειστικά από εθελοντές.</p>
 			</section>
-
-			<hr style="margin: 3rem 0;">
-
-			<section id="blog" class="clearfix">
-				<?php
-					// Start the Loop.
-					while ( have_posts() ) : the_post();
-						get_template_part( 'content', 'post' );
-					endwhile;
-				?>
-			</section>
 		</div><!-- #content -->
 	</div><!-- #primary -->
 </div><!-- #main-content -->
