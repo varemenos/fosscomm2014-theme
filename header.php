@@ -30,6 +30,15 @@
 	<![endif]-->
 	<?php wp_head(); ?>
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css">
+
+	<?php if (is_single()) {
+		$css = get_post_meta($post->ID, 'css', true);
+		if (!empty($css)) { ?>
+			<style>
+				<?php echo $css; ?>
+			</style>
+		<?php }
+	} ?>
 </head>
 
 <body <?php body_class(); ?>>
