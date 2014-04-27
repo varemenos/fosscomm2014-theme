@@ -2045,6 +2045,16 @@ body {
   color: #222222;
   background-color: #666699;
 }
+body.full-width {
+  background: #fff;
+}
+body.full-width .main-content {
+  float: none;
+  padding-right: 0;
+}
+body.full-width #secondary {
+  display: none;
+}
 
 #main {
   max-width: 1140px;
@@ -2284,16 +2294,6 @@ body {
   background: -o-linear-gradient(left, white 74%, #666699 74%);
   background: -ms-linear-gradient(left, white 74%, #666699 74%);
   background: linear-gradient(to right, white 74%, #666699 74%);
-}
-#main.full-width {
-  background: #fff;
-}
-#main.full-width .main-content {
-  float: none;
-  padding-right: 0;
-}
-#main.full-width #secondary {
-  display: none;
 }
 @media only screen and (max-width: 1139px) {
   #main {

@@ -48,6 +48,19 @@ body{
 	font-family: Arial, sans-serif;
 	color: $cb;
 	background-color: $c;
+
+	&.full-width{
+		background: #fff;
+
+		.main-content{
+			float: none;
+			padding-right: 0;
+		}
+
+		#secondary{
+			display: none;
+		}
+	}
 }
 
 #main{
@@ -311,19 +324,6 @@ body{
 	background: -o-linear-gradient(left, #fff 74%,$c 74%);
 	background: -ms-linear-gradient(left, #fff 74%,$c 74%);
 	background: linear-gradient(to right, #fff 74%,$c 74%);
-
-	&.full-width{
-		background: #fff;
-
-		.main-content{
-			float: none;
-			padding-right: 0;
-		}
-
-		#secondary{
-			display: none;
-		}
-	}
 
 	@media only screen and (max-width: 1139px){
 		background: #fff;
