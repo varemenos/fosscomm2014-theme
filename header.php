@@ -33,6 +33,7 @@
 
 	<?php if (is_single()) {
 		$css = get_post_meta($post->ID, 'css', true);
+		var_dump($css);
 		if (!empty($css)) { ?>
 			<style>
 				<?php echo $css; ?>
