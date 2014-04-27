@@ -2045,7 +2045,7 @@ body {
   color: #222222;
   background-color: #666699;
 }
-body.full-width {
+body.full-width #main {
   background: #fff;
 }
 body.full-width .main-content {

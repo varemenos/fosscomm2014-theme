@@ -50,7 +50,10 @@ body{
 	background-color: $c;
 
 	&.full-width{
-		background: #fff;
+
+		#main{
+			background: #fff;
+		}
 
 		.main-content{
 			float: none;
