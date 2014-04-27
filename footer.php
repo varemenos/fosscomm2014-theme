@@ -20,16 +20,16 @@
 
 			<ul id="sponsors">
 				<li>
-					<a href="http://www.ellak.gr"><img src="/wp-content/themes/fosscomm2014/img/eellak100.png" alt="ΕΛ/ΛΑΚ" target="_blank"></a>
+					<a href="http://www.ellak.gr" target="_blank"><img src="/wp-content/themes/fosscomm2014/img/eellak100.png" alt="ΕΛ/ΛΑΚ"></a>
 				</li>
 				<li>
-					<a href="http://www.citrix.com"><img src="/wp-content/themes/fosscomm2014/img/citrix.png" alt="Citrix" target="_blank"></a>
+					<a href="http://www.citrix.com" target="_blank"><img src="/wp-content/themes/fosscomm2014/img/citrix.png" alt="Citrix"></a>
 				</li>
 				<li>
-					<a href="http://eln.teiste.gr"><img src="/wp-content/themes/fosscomm2014/img/eln.png" alt="Ηλεκτρονικών Μηχανικών ΤΕ" target="_blank"></a>
+					<a href="http://eln.teiste.gr" target="_blank"><img src="/wp-content/themes/fosscomm2014/img/eln.png" alt="Ηλεκτρονικών Μηχανικών ΤΕ"></a>
 				</li>
 				<li>
-					<a href="http://www.inf.teilam.gr"><img src="/wp-content/themes/fosscomm2014/img/inf.png" alt="Μηχανικών Πληροφορικής ΤΕ" target="_blank"></a>
+					<a href="http://www.inf.teilam.gr" target="_blank"><img src="/wp-content/themes/fosscomm2014/img/inf.png" alt="Μηχανικών Πληροφορικής ΤΕ"></a>
 				</li>
 			</ul>
 			<div class="site-info">
