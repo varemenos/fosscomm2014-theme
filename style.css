@@ -2045,14 +2045,14 @@ body {
   color: #222222;
   background-color: #666699;
 }
-body.full-width #main {
+body.page-id-32 #main {
   background: #fff;
 }
-body.full-width .main-content {
+body.page-id-32 .main-content {
   float: none;
   padding-right: 0;
 }
-body.full-width #secondary {
+body.page-id-32 #secondary {
   display: none;
 }
 
