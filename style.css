@@ -2045,14 +2045,14 @@ body {
   color: #222222;
   background-color: #666699;
 }
-body.page-id-32 #main {
+body.page-id-32 #main, body.page-id-360 #main, body.page-id-366 #main, body.page-id-368 #main {
   background: #fff;
 }
-body.page-id-32 .main-content {
+body.page-id-32 .main-content, body.page-id-360 .main-content, body.page-id-366 .main-content, body.page-id-368 .main-content {
   float: none;
   padding-right: 0;
 }
-body.page-id-32 #secondary {
+body.page-id-32 #secondary, body.page-id-360 #secondary, body.page-id-366 #secondary, body.page-id-368 #secondary {
   display: none;
 }
 

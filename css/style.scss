@@ -49,7 +49,10 @@ body{
 	color: $cb;
 	background-color: $c;
 
-	&.page-id-32{
+	&.page-id-32,
+	&.page-id-360,
+	&.page-id-366,
+	&.page-id-368{
 		#main{
 			background: #fff;
 		}
