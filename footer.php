@@ -32,6 +32,9 @@
 					<a href="http://www.agnadi-syros.gr/" target="_blank"><img src="/wp-content/themes/fosscomm2014/img/agnadi.png" alt="Agnadi-Syros"></a>
 				</li>
 				<li>
+					<a href="http://www.enatv.gr/" target="_blank"><img src="/wp-content/themes/fosscomm2014/img/ena.png" alt="Ena TV"></a>
+				</li>
+				<li>
 					<a href="http://eln.teiste.gr" target="_blank"><img src="/wp-content/themes/fosscomm2014/img/eln.png" alt="Ηλεκτρονικών Μηχανικών ΤΕ"></a>
 				</li>
 				<li>
