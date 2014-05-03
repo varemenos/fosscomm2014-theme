@@ -2411,6 +2411,8 @@ textarea {
 
 .parent-pageid-23 table {
   width: 100%;
+  max-width: 100%;
+  background-color: #fff;
   text-align: center;
 }
 .parent-pageid-23 table td {
